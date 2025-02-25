@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Monomakh&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --marrom-escuro: #493628;
+    --marrom-medio: #AB886D;
+    --marrom-claro: #D6C0B3;
+    --cinza: #E4E0E1;
+}
+/* font-family: "Monomakh", serif; */
+body{
+    font-family: "Mulish", serif;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--cinza);
+    height: 10vh;
+    padding: 2rem 4rem;
+}
+
+.logo img{
+    width: 30px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-item{
+    color: var(--marrom-escuro);
+    font-weight: 800;
+}
+
+.menu-item:hover{
+    color: var(--marrom-medio);
+}
+
+.nav-login{
+    display: flex;
+    gap: 1rem;
+}
+
+.fale-conosco{
+    padding: .5rem 2rem;
+    border-radius: 6px;
+    border: 1px solid var(--marrom-escuro);
+    margin-right: 1rem;
+
+    color: var(--marrom-escuro);
+    font-weight: 800;
+    text-transform:capitalize;
+}
+
+.fale-conosco:hover{
+    border: none;
+    background-color: var(--marrom-claro);
+}
+
+.carrinho-area{
+    background-color: var(--marrom-escuro);
+    padding: .5rem 1.5rem;
+    border-radius: 6px;
+}
+
+.carrinho-area:hover{
+    background-color: var(--marrom-claro);
+}
+
+.carrinho-area i{
+    color: var(--cinza);
+    padding-right: .5rem;
+}
+
+.carrinho-area a{
+    color: var(--cinza);
+    font-weight: 800;
+}
+
+.info-principal{
+    height: 90vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+}
+
+.imagem-bolo img{
+    width: 100%;
+    height: 90%;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 4rem;
+}
+
+h1, p{
+    color: var(--marrom-medio);
+    width: 70%;
+}
+
+h1{
+    font-family: "Monomakh", serif;
+    font-size: 4rem;
+}
+
+span{
+    color: var(--marrom-escuro);
+}
+
+button{
+    background-color: var(--marrom-claro);
+    border: none;
+    padding: .7rem;
+    width: 30%;
+    border-radius: 6px;
+
+    color: var(--marrom-escuro);
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: var(--marrom-escuro);
+    color: var(--cinza);
+}
