@@ -29,6 +29,10 @@ header{
     padding: 2rem 4rem;
 }
 
+.menu-hamburguer{
+    display: none;
+}
+
 .logo img{
     width: 30px;
 }

@@ -1,0 +1,47 @@
+@media screen and (max-width:375px){
+    header{
+        padding: 2rem 1rem;
+    }
+
+    .menu-hamburguer{
+        display: flex;
+    }
+
+    .menu-hamburguer i{
+        font-size: 18px;
+    }
+
+    .nav-menu, .nav-login{
+        display: none;
+    }
+
+    .info-principal{
+        display: grid;
+        grid-template-columns: 1fr;   
+    }
+
+    .informacao{
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+
+    .imagem-bolo img{
+        height: 100%;
+    }
+
+    h1, p{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    p{
+        width: 90%;
+    }
+
+    button{
+        width: 50%;
+    }
+}
